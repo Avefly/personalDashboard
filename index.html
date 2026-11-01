@@ -34,12 +34,40 @@
             <span>Habits</span>
         </a>
     </nav>
-    <section>
-        <div class="greeting">
+    <section class="greeting">
+        <div>
             <h1>Good morning! 👋</h1>
             <p class="subtext">Stay consistent, small steps add up</p>
         </div>
+        <div class="date-container">
+            <i class="fa-regular fa-calendar"></i>
+            <span class="date"></span>
+        </div>
     </section>
-    <script ref="index.js"></script>
+
+    <section class="cards-section">
+        <div class="card">
+            <i class="fa-regular fa-circle-check card-icon"></i>
+            <div class="tasks-completed">
+                <p>Tasks Completed</p>
+                <p>3/5</p>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fa-regular fa-heart card-icon"></i>
+            <div class="habits-completed">
+                <p>Habits Completed</p>
+                <p>3/5</p>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-fire card-icon"></i>
+            <div class="current streak">
+                <p>Current Streak</p>
+                <p>7 days</p>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>

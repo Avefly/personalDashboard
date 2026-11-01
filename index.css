@@ -1,13 +1,14 @@
 body {
     background-color: #080f1a;
     color: #e5e7eb;
-    padding: 20px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
+    border-bottom: 1px solid #36383b;
+    padding: .7em .6em;
 }
 
 .fa-leaf {
@@ -31,14 +32,51 @@ nav a {
     display: none;
 }
 
-/* Typography */
+
+.greeting {
+    padding: .2em .6em;
+}
+
 h1 {
     font-size: 1.2rem;
     padding-top: .25em;
+    margin-bottom: 0em;
+    margin-top: 0em;
 }
 
 .subtext {
-    font-size: .95rem;
+    font-size: 1rem;
     color: #68696d;
     font-style: italic;
+    display: block;
+    margin-top: .1em;
+    margin-bottom: 0em;
+}
+
+.date-container {
+    background-color: #1f2937;
+    margin-top: .5em;
+    padding: .2em .3em;
+    border-radius: 5%;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    margin: 1em .6em;
+    gap: .5em;
+}
+
+.card {
+    border: 1px solid;
+    padding: .1em .7em;
+    display: flex;
+    gap: 1em;
+    font-size: 1.rem;
+}
+
+.card-icon {
+    font-size: 1.5rem;
+    color: #68696d;
+    padding-top: .6em;
 }
