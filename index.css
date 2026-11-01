@@ -1,0 +1,44 @@
+body {
+    background-color: #080f1a;
+    color: #e5e7eb;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.fa-leaf {
+    color:rgb(95, 231, 64);
+}
+
+.sidebar-btn {
+    border: none;
+    background-color: #080f1a;
+    color: inherit;
+    font-size: inherit;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Typography */
+h1 {
+    font-size: 1.2rem;
+    padding-top: .25em;
+}
+
+.subtext {
+    font-size: .95rem;
+    color: #68696d;
+    font-style: italic;
+}

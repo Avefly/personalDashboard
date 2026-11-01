@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My personal dashboard</title>
-    <link rel="stylesheet" ref="index.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+       integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <i class="fa-solid fa-leaf"></i>
+            <span>My Dashboard</span>
+        </div>
+        <button class="sidebar-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <nav class="sidebar-nav hidden">
+        <a href="#" class="nav-item">
+            <i class="fa-regular fa-house"></i>
+            <span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fa-regular fa-square-check"></i>
+            <span>Task</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fa-solid fa-chart-simple"></i>
+            <span>Habits</span>
+        </a>
+    </nav>
+    <section>
+        <div class="greeting">
+            <h1>Good morning! 👋</h1>
+            <p class="subtext">Stay consistent, small steps add up</p>
+        </div>
+    </section>
     <script ref="index.js"></script>
 </body>
 </html>
